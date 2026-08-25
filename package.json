@@ -1,0 +1,13 @@
+{
+	"dependencies": {
+		"live-server": "^1.2.2"
+	},
+	"devDependencies": {
+		"servor": "^4.0.2"
+	},
+	"scripts": {
+    "dev": "servor src/ index.html 1234 --reload",
+    "build": "echo 'Build script'",
+    "deploy": "echo 'Deploy script'"
+  }
+}
